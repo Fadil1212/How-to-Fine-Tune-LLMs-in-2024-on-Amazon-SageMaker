@@ -1,9 +1,4 @@
-# Fine-tune Foundation Models on Amazon SageMaker using @remote decorator
-
-In this example we will go through the steps required for fine-tuning foundation models on Amazon SageMaker by using @remote decorator for executing SageMaker Training jobs.
-
-You can run this repository from Amazon SageMaker Studio or from your local IDE.
-
+Fadil Mohammed 
 ## Prerequistes
 
 The notebooks are currently using the latest [HuggingFace](https://github.com/aws/deep-learning-containers/blob/master/available_images.md) Training Container available for the region `eu-west-1`. If you are running the notebooks in a different region, make sure to update the *ImageUri* in the file [config.yaml](./config.yaml).
